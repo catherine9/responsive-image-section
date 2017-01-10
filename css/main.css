@@ -22,7 +22,7 @@ header {
   padding: 1rem;
 }
 
-img-flex {
+.img-flex {
   position: relative;
   max-width: 100%;
 }
