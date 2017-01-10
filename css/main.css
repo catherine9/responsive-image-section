@@ -24,10 +24,34 @@ header {
 
 .img-flex {
   position: relative;
-  max-width: 100%;
+  width: 100%;
+  display: block;
 }
 
 p {
-  float: left;
-  width: 50%;
+  text-align: left;
+}
+
+@media only screen and (min-width: 25em) {
+
+
+
+}
+
+@media only screen and (min-width: 38em) {
+
+
+
+}
+
+@media only screen and (min-width: 60em) {
+
+
+
+}
+
+@media only screen and (min-width: 90em) {
+
+
+
 }
