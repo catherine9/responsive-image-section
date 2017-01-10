@@ -38,6 +38,8 @@ p {
   padding: .5em;
   border-radius: 4px;
   background-color: #555;
+  text-decoration: none;
+  color: #fff;
 }
 
 .btn:hover {
