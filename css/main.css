@@ -11,29 +11,26 @@ html {
   -webkit-text-size-adjust: 100%;
   text-size-adjust: 100%;
   font: normal 100%/1.3 sans-serif;
-  background-color: #e2e2e2;
 }
 
 *, *::before, *::after {
   box-sizing: inherit;
 }
 
-header {
-  font-family: sans-serif;
-  padding: 1rem;
-  margin: .4em;
-}
-
 .img-flex {
-  position: relative;
   width: 100%;
   display: block;
-  padding-top: .7em;
+  padding-top: 1rem;
+}
+
+section {
+  background-color: #e2e2e2;
 }
 
 p {
   text-align: left;
-  margin-top: auto;
+  margin: 0;
+  padding-bottom: 2em;
 }
 
 body {
@@ -45,20 +42,19 @@ div {
 }
 
 a {
-  margin-top: auto;
   background-color: #555;
   border-radius: 4px;
-}
-
-.btn {
-  padding: .5em;
-  border-radius: 4px;
-  background-color: #555;
+  color: #e2e2e2;
+  padding: .5em .75em;
   text-decoration: none;
-  color: #fff;
 }
 
-.btn:hover {
+.info {
+  padding: 0 1rem;
+  text-align: left;
+}
+
+a:hover {
   background-color: #000;
 }
 
@@ -90,6 +86,11 @@ a {
     max-width: 25em;
     vertical-align: middle;
     width: 48%;
+  }
+
+  section {
+    padding-top: 1rem;
+    padding-bottom: 1rem;
   }
 
 }
