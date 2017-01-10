@@ -37,7 +37,11 @@ p {
 }
 
 body {
-  margin: .2em;
+  margin: 0;
+}
+
+a {
+  margin-top: auto;
 }
 
 .btn {
@@ -46,7 +50,6 @@ body {
   background-color: #555;
   text-decoration: none;
   color: #fff;
-  margin-top: auto;
 }
 
 .btn:hover {
@@ -72,6 +75,11 @@ body {
   html {
     font-size: 110%;
     line-height: 1.4;
+  }
+
+  .img-flex {
+    display: inline-block;
+
   }
 
 }
